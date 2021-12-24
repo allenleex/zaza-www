@@ -46,6 +46,7 @@
     </video-player>
 
     <section id="second">
+      <h1>下载</h1>
       <div class="container gallery">
         <div class="row">
           <div class="col-sm-6 col-md-4">
@@ -58,11 +59,14 @@
                 style="height: 200px; width: 100%; display: block"
               />
               <div class="caption">
-                <h3>Thumbnail label</h3>
+                <h3>基础版</h3>
                 <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
+                  在这里放置一段产品说明文字<br />在这里放置一段产品说明文字<br />在这里放置一段产品说明文字
+                </p>
+                <p>
+                  <button type="button" class="btn btn-warning btn-lg">
+                    立即下载 (Windows10版本)
+                  </button>
                 </p>
               </div>
             </div>
@@ -77,11 +81,14 @@
                 style="height: 200px; width: 100%; display: block"
               />
               <div class="caption">
-                <h3>Thumbnail label</h3>
+                <h3>专业版</h3>
                 <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
+                  在这里放置一段产品说明文字<br />在这里放置一段产品说明文字<br />在这里放置一段产品说明文字
+                </p>
+                <p>
+                  <button type="button" class="btn btn-default btn-lg">
+                    立即下载 (Windows10版本)
+                  </button>
                 </p>
               </div>
             </div>
@@ -96,11 +103,14 @@
                 style="height: 200px; width: 100%; display: block"
               />
               <div class="caption">
-                <h3>Thumbnail label</h3>
+                <h3>旗舰版</h3>
                 <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
+                  在这里放置一段产品说明文字<br />在这里放置一段产品说明文字<br />在这里放置一段产品说明文字
+                </p>
+                <p>
+                  <button type="button" class="btn btn-default btn-lg">
+                    立即下载 (Windows10版本)
+                  </button>
                 </p>
               </div>
             </div>
@@ -109,9 +119,72 @@
       </div>
     </section>
 
-    <section id="third">Third Section</section>
+    <section id="third" class="container">
+      <h1>支持</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">这里提出一个问题</h3>
+            </div>
+            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section id="fourth">Fourth Section</section>
+    <section id="fourth" class="container">
+      <h1>关于</h1>
+      <div id="fourth" class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>...</p>
+        <p>
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Learn more</a
+          >
+        </p>
+      </div>
+    </section>
 
     <footer class="bs-docs-footer">
       <div class="container">
@@ -121,11 +194,38 @@
           <li><a href="/getting-started/#examples">实例</a></li>
           <li><a href="/about/">关于</a></li>
         </ul>
-        <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" rel="noopener" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" rel="noopener" target="_blank">@fat</a>. Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
-        <p>Code licensed <a href="https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE" rel="license noopener" target="_blank">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" rel="license noopener" target="_blank">CC BY 3.0</a>.</p>
+        <p>
+          Designed and built with all the love in the world by
+          <a href="https://twitter.com/mdo" rel="noopener" target="_blank"
+            >@mdo</a
+          >
+          and
+          <a href="https://twitter.com/fat" rel="noopener" target="_blank"
+            >@fat</a
+          >. Maintained by the
+          <a href="https://github.com/orgs/twbs/people">core team</a> with the
+          help of
+          <a href="https://github.com/twbs/bootstrap/graphs/contributors"
+            >our contributors</a
+          >.
+        </p>
+        <p>
+          Code licensed
+          <a
+            href="https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE"
+            rel="license noopener"
+            target="_blank"
+            >MIT</a
+          >, docs
+          <a
+            href="https://creativecommons.org/licenses/by/3.0/"
+            rel="license noopener"
+            target="_blank"
+            >CC BY 3.0</a
+          >.
+        </p>
       </div>
     </footer>
-
   </div>
 </template>
 
@@ -193,7 +293,7 @@ nav {
   top: 0;
   width: 100vw;
   z-index: 9999;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 nav ul {
   width: 100%;
@@ -224,7 +324,21 @@ section {
   font-weight: bold;
   padding: 30px 0;
 }
-.gallery {
-  margin-top: 30px;
+h1 {
+  color: #808080;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.caption p {
+  margin: 20px 0;
+  font-size: 16px;
+}
+.jumbotron {
+  width: 100%;
+}
+.panel-body {
+  font-size: 14px;
+  text-align: left;
 }
 </style>
