@@ -1,38 +1,11 @@
 <template>
   <div id="app">
-    <!-- <div class="container-fluid header">
-      <div class="navbar-header">
-        <button
-          type="button"
-          class="navbar-toggle collapsed"
-          data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-6"
-          aria-expanded="false"
-        >
-          <span class="sr-only">切换</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">动捕精灵</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">概况</a></li>
-          <li><a href="#">下载</a></li>
-          <li><a href="#">支持</a></li>
-          <li><a href="#">关于</a></li>
-        </ul>
-      </div>
-    </div> -->
-
     <nav>
       <ul>
         <li><a href="#first">首页</a></li>
-        <li><a href="#second">下载</a></li>
-        <li><a href="#third">支持</a></li>
-        <li><a href="#fourth">关于</a></li>
+        <li><a href="#second">产品下载</a></li>
+        <li><a href="#third">虚拟偶像</a></li>
+        <li><a href="#fourth">关于我们</a></li>
       </ul>
     </nav>
 
@@ -46,8 +19,8 @@
     </video-player>
 
     <section id="second">
-      <h1>下载</h1>
-      <div class="container gallery">
+      <h1>产品下载</h1>
+      <div class="container">
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
@@ -85,11 +58,7 @@
                 <p>
                   在这里放置一段产品说明文字<br />在这里放置一段产品说明文字<br />在这里放置一段产品说明文字
                 </p>
-                <p>
-                  <button type="button" class="btn btn-default btn-lg">
-                    立即下载 (Windows10版本)
-                  </button>
-                </p>
+                <h2>敬请期待</h2>
               </div>
             </div>
           </div>
@@ -107,11 +76,7 @@
                 <p>
                   在这里放置一段产品说明文字<br />在这里放置一段产品说明文字<br />在这里放置一段产品说明文字
                 </p>
-                <p>
-                  <button type="button" class="btn btn-default btn-lg">
-                    立即下载 (Windows10版本)
-                  </button>
-                </p>
+                <h2>敬请期待</h2>
               </div>
             </div>
           </div>
@@ -119,62 +84,142 @@
       </div>
     </section>
 
-    <section id="third" class="container">
-      <h1>支持</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+    <section id="third">
+      <h1>虚拟偶像</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">这里提出一个问题</h3>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
             </div>
-            <div class="panel-body">在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题在这里回答上面的问题</div>
+          </div>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 col-md-2">
+            <div class="thumbnail">
+              <img
+                data-src="holder.js/200%x200"
+                alt="100%x200"
+                src="https://images-common.oss-cn-guangzhou.aliyuncs.com/video/78FFDEE8-CA0D-4AD1-AAB3-BA7936168E3E.png"
+                data-holder-rendered="true"
+                style="width: 100%; display: block"
+              />
+              <div class="caption">
+                <h4>偶像名称</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="fourth" class="container">
-      <h1>关于</h1>
+      <h1>关于我们</h1>
       <div id="fourth" class="jumbotron">
         <h1>Hello, world!</h1>
         <p>...</p>
@@ -188,42 +233,25 @@
 
     <footer class="bs-docs-footer">
       <div class="container">
-        <ul class="bs-docs-footer-links">
-          <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
-          <li><a href="https://twitter.com/getbootstrap">Twitter</a></li>
-          <li><a href="/getting-started/#examples">实例</a></li>
-          <li><a href="/about/">关于</a></li>
-        </ul>
-        <p>
-          Designed and built with all the love in the world by
-          <a href="https://twitter.com/mdo" rel="noopener" target="_blank"
-            >@mdo</a
-          >
-          and
-          <a href="https://twitter.com/fat" rel="noopener" target="_blank"
-            >@fat</a
-          >. Maintained by the
-          <a href="https://github.com/orgs/twbs/people">core team</a> with the
-          help of
-          <a href="https://github.com/twbs/bootstrap/graphs/contributors"
-            >our contributors</a
-          >.
-        </p>
-        <p>
-          Code licensed
-          <a
-            href="https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE"
-            rel="license noopener"
-            target="_blank"
-            >MIT</a
-          >, docs
-          <a
-            href="https://creativecommons.org/licenses/by/3.0/"
-            rel="license noopener"
-            target="_blank"
-            >CC BY 3.0</a
-          >.
-        </p>
+        <div class="row">
+          <div class="col-md-6 text-left">
+            <ul class="bs-docs-footer-links">
+              <li><a href="#first">首页</a></li>
+              <li><a href="#second">产品下载</a></li>
+              <li><a href="#third">虚拟偶像</a></li>
+              <li><a href="#fourth">关于我们</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 text-right">
+            <p>
+              &copy; 2021-2025 
+              广州喳喳科技有限公司, 版权所有.
+              <a href="http://beian.miit.gov.cn/" target="_blank"
+                >粤ICP备2021170452号-1</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   </div>
@@ -330,6 +358,9 @@ h1 {
   font-weight: 600;
   padding: 20px 0;
 }
+.caption {
+  padding: 10px 0;
+}
 .caption p {
   margin: 20px 0;
   font-size: 16px;
@@ -337,8 +368,27 @@ h1 {
 .jumbotron {
   width: 100%;
 }
+.thumbnail {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: none;
+}
+.thumbnail .caption {
+  color: #808080;
+}
+.thumbnail .caption:hover {
+  color: #f0f0f0;
+}
 .panel-body {
   font-size: 14px;
   text-align: left;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 </style>
